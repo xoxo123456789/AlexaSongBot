@@ -11,17 +11,18 @@ from AlexaSongBot.sql.chat_sql import add_chat_to_db
 
 start_text = """
 Hey [{}](tg://user?id={}),
-I'm Alexa 🤗
+I'm DMG-X OFFICIAL BOT [😇😇](https://telegra.ph/file/3589b529c952063c7220b.jpg)
 Just send me the song name you want to download.
 Eg: ```/song Faded Alan Walker```
+Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @ᴍʀSHAGGYʙᴏʏ
 """
 
 owner_help = """
-/blacklist user_id
-/unblacklist user_id
-/broadcast message to send
-/eval python code
-/chatlist get list of all chats
+😇/blacklist user_id
+😇/unblacklist user_id
+😇/broadcast message to send
+😇/eval python code
+😇/chatlist get list of all chats
 """
 
 
@@ -35,7 +36,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Mr-Dark-Prince/AlexaSongBot"
+                        text="MY OFFICIAL GROUP", url="https://t.me/Dark_music_Gangex_2021"
                     )
                 ]
             ]
